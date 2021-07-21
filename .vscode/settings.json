@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "Dockerfile_pip_multi": "dockerfile",
+        "Dockerfile_pip_single": "dockerfile",
+    },
+    "files.eol": "\n"
+}

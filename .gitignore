@@ -1,0 +1,12 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+venv_docker_stage/
+
+### Document ####
+note.txt
+
+### ENV file ###
+.ENV
