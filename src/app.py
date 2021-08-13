@@ -8,10 +8,11 @@ load_dotenv()
 if __name__ == '__main__':
     # Print information from Environment variables
     print('{} say "{}"'.format(os.environ.get('USER'), os.environ.get('MSG_INPUT')))
+    api_url = os.environ.get('BASE_URL') + os.environ.get('API_ENDPOINT')
     #print(os.environ.get('MSG_INPUT'))
     try:
-        # Send HTTP GET request to watasalim website
-        response = requests.get('https://watasalim.vercel.app/api/quotes/random')
+        # Send HTTP GET request to API Endpoint
+        response = requests.get(api_url)
     except Exception as exp:
 	    print('Caught exception: {}'.format(str(exp)))
 

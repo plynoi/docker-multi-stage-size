@@ -1,7 +1,7 @@
 {
     "files.associations": {
-        "Dockerfile_pip_multi": "dockerfile",
-        "Dockerfile_pip_single": "dockerfile",
+        "Dockerfile_singlestage": "dockerfile",
+        "Dockerfile_multistage": "dockerfile",
     },
     "files.eol": "\n"
 }

@@ -1,0 +1,15 @@
+# Dockerfile single-stage build with Python Pip
+FROM python:3.8.11-alpine 
+
+WORKDIR /app
+# Copy requirements.txt and install dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Set Docker and Applications Env
+ENV USER=PYTHON_PIP_SINGLE
+
+# Copy src
+COPY src/ .
+# Running application
+CMD ["python","app.py"]

@@ -1,0 +1,9 @@
+venv_docker_stage
+.env
+images/
+.env.example
+LICENSE.md
+.vscode/
+README.md
+.git/
+test.txt
