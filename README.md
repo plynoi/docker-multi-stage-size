@@ -16,7 +16,7 @@ The multi-stage builds let you organize Dockerfile by split your Dockerfile into
 
 ## <a id="demo"></a>Demo Project
 
-This demo project is a simple console application that requests an anonymous Far-right quote message from [@narze] (https://twitter.com/narze)'s [Awesome Salim Quotes](https://watasalim.vercel.app/) application and API. The application is written in [Python](https://www.python.org/) with the following libraries:
+This demo project is a simple console application that requests an anonymous Far-right quote message from [@narze](https://twitter.com/narze)'s [Awesome Salim Quotes](https://watasalim.vercel.app/) application and API. The application is written in [Python](https://www.python.org/) with the following libraries:
 - [requests](https://github.com/psf/requests)
 - [Simple Chalk](https://github.com/olsonpm/py_simple-chalk)
 - [python-dotenv](https://github.com/theskumar/python-dotenv)
@@ -117,7 +117,7 @@ This demo project requires the following dependencies software.
 1. Docker.
 2. Internet connection.
 
-## Running the application.
+## <a id="running"></a>Running the application.
 
 The first step is to unzip or download the example project folder into a directory of your choice, then set up the project ```.env``` file based on your preference.
 
