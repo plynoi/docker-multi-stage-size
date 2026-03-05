@@ -4,4 +4,4 @@ idna==3.2
 python-dotenv==0.18.0
 requests==2.26.0
 simple-chalk==0.1.0
-urllib3==1.26.6
+urllib3==2.6.3
